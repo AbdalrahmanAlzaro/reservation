@@ -1,0 +1,63 @@
+.MainCont {
+  background-image: url(https://cdn.discordapp.com/attachments/1106603223458000987/1106644941762994186/SL-110720-37770-19.jpg);
+  background-position: center;
+  object-fit: contain;
+  background-size: cover;
+}
+
+.AboutSec1 {
+  background-image: url(https://cdn.discordapp.com/attachments/1106603223458000987/1107027642001141881/Screenshot_2023-05-13_222551.png);
+  background-position: 280px;
+  object-fit: contain;
+  background-size: cover;
+}
+
+@media (max-width: 640px) {
+  .AboutSec1 {
+    background-image: none;
+    background-color: #b3b3b3;
+  }
+}
+
+.GalleryImg {
+  background-image: url(https://cdn.discordapp.com/attachments/1106603223458000987/1107051062550089749/27230.jpg);
+  background-position: center;
+  object-fit: contain;
+  background-size: cover;
+}
+
+.loginMainCont {
+  background-image: url(https://cdn.discordapp.com/attachments/1106603223458000987/1113252049472213113/14644510_SL_110720_37770_21.jpg);
+  background-position: center;
+  object-fit: contain;
+  background-size: cover;
+}
+
+@media (max-width: 426px) {
+  .videoCon {
+    align-items: center;
+  }
+  .video {
+    width: 90% !important;
+  }
+}
+@media (max-width: 641px) {
+  .faildInput {
+    margin-left: 0 !important;
+  }
+}
+.findForm {
+  position: relative;
+  top: -75px;
+  background-color: #0000007d;
+  z-index: -1;
+  padding-bottom: 32px !important;
+  border-radius: 20px;
+}
+
+.sigInEmail:focus {
+  border: none !important;
+  border-bottom: 2px solid #3b71ca !important;
+  outline: none !important;
+  box-shadow: 0 0 0 0;
+}
